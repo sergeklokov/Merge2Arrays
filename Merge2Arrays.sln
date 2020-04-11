@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge2Arrays", "Merge2Arrays\Merge2Arrays.csproj", "{CC0933A1-3E85-4DC4-A440-4F7CB22D5FFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{735D01A2-074E-49F8-84E3-7EB5B74C9FF3}"
+	ProjectSection(SolutionItems) = preProject
+		merge two arrays 1.PNG = merge two arrays 1.PNG
+		merge two arrays 2.PNG = merge two arrays 2.PNG
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC0933A1-3E85-4DC4-A440-4F7CB22D5FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0933A1-3E85-4DC4-A440-4F7CB22D5FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0933A1-3E85-4DC4-A440-4F7CB22D5FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0933A1-3E85-4DC4-A440-4F7CB22D5FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB4EEFEC-7741-4B06-B25A-8FFB16680FF3}
+	EndGlobalSection
+EndGlobal
