@@ -11,13 +11,13 @@ namespace Merge2Arrays
         static void Main(string[] args)
         {
             var a = new List<int> { 1, 2, 3 };
-            var b = new List<int> { 2, 5, 5 };
+            var b = new List<int> { 2, 5, 5, 4 };
 
             var c = mergeArrays(a, b);
-            foreach (var i in c)
-            {
-                Console.Write(i + " ");
-            }
+
+            PrintArray(a);
+            PrintArray(b);
+            PrintArray(c);
 
             Console.WriteLine();
             Console.ReadKey();
@@ -50,5 +50,14 @@ namespace Merge2Arrays
 
             return c;
         }
+
+        private static void PrintArray(List<int> x)
+        {
+            foreach (var i in x)
+                Console.Write(i + " ");
+
+            Console.WriteLine();
+        }
+
     }
 }
